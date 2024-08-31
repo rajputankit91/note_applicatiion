@@ -1,0 +1,74 @@
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    
+}
+
+.inner-header{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 60%;
+    height: 65px;
+    border: solid;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.header-container .icon-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.logo{
+    width: 40%;
+}
+
+.icon-container{
+    width: 40%;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.Icon{
+    width: 35px;
+    height: 35px;
+}
+
+.check{
+    color: rgb(189, 189, 20);
+}
+
+.pencil{
+    color: rgb(116, 63, 72);
+}
+
+.share{
+    color: rgb(10, 56, 10);
+
+}
+
+.logo a{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 25px;
+}

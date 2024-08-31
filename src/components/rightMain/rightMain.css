@@ -1,0 +1,36 @@
+.rightContainer{
+    min-width: 70%;
+}
+
+.heading{
+    width: 600px;
+}
+
+.textArea{
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+/* 
+.textArea:focus{
+    border: none;
+} */
+
+.rightSection{
+    min-width: 70%;
+    min-height: 70%;
+    border: solid;
+}
+
+.noNote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSection p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}

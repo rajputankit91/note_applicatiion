@@ -1,0 +1,9 @@
+.main{
+    width: 100%;
+    min-height: 700px;
+    max-height: 700px;
+
+    display: flex;
+    padding: 0px 30px;
+    /* border: solid; */
+}
