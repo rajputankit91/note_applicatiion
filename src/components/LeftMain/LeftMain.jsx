@@ -1,7 +1,7 @@
 import React from "react";
 import "./leftMain.css"
 
-const LeftMain = ({ notes, deleteNote, getNote, activeNote, setActiveNote }) => {
+const LeftMain = ({ notes, deleteNote, getNote, activeNote, setActiveNote,updateNote }) => {
 
     const sortedNotes = notes.sort((a, b) => b.date - a.date);
 
@@ -13,6 +13,7 @@ const LeftMain = ({ notes, deleteNote, getNote, activeNote, setActiveNote }) => 
                         <div className={`card ${id === activeNote && "active"}`} key={index} id={id} onClick={() => {
                             setActiveNote(id)
                             getNote(id);
+                            updateNote(id);
                         }}>
                             <div className="dropdown">
                                 <button className="editBtn">Edit</button>

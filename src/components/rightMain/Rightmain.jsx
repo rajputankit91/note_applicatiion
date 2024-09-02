@@ -7,10 +7,10 @@ import SignatureCanvas from 'react-signature-canvas'
 import { ReactSketchCanvas } from 'react-sketch-canvas';
 
 const RightMain = ({ selected, notes, setNotes, setSelected, setUrl, url }) => {
-    console.log(selected)
+    // console.log(selected)
 
     const signatureRef = useRef();
-    console.log(signatureRef);
+    // console.log(signatureRef);
     
     const handleTitleChange = (newH1) => {
         const updatedNotes = notes.map((notee) => {
